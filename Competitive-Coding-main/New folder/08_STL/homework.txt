@@ -1,0 +1,14 @@
+1. Given N elements , print the elements that occur
+maximum number of times 
+ip
+
+5
+1 3 3 3 2
+
+op -> 3
+
+
+
+2. given N elements , print all elements in sorted order
+
+input n=6

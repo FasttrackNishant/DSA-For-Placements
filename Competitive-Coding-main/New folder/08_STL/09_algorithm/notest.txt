@@ -1,0 +1,1 @@
+we learn the array , vector to store the element like liner sequential fashion

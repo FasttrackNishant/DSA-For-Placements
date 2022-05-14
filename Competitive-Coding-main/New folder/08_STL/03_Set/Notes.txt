@@ -1,0 +1,52 @@
+Set is used to store the elements 
+and it is used to find the unique elements
+
+set of anything can be defined and it stores unique value
+
+All operations of set are logarithmic of size
+
+st.insert();  --> it is similar to the push _back
+it takes log(N) , where N is the size of set
+
+st.emplace()  -> same as insert
+
+
+in set first element is smallest of all
+st[0]--> can not access like this
+to access we have to use iterators
+st.begin()
+
+
+all techniques implemented on vector can be done here 
+
+it = st.find(n)  -> giver the iterators present at N
+and if n is not in set
+
+it = st.find(n)  --> it will return 
+it = st.end()
+
+avg complexity is log(n);
+
+unordered_set <int> st;
+avg time complexity in avg in nature 
+but worst case is linear nature --> o(set size)
+we never know will element will be at 0
+
+
+** but in int , cp what should we use
+
+if you dont require to stor in asceding order 
+then use unordered_set as its complexity is better than log n
+
+while using unordered_set we may get tle 
+then switch to the set
+
+~~~ Multiset
+
+it is same like the set but we can store double values it sorted order
+
+
+
+
+want to read more go to cpluscplus.com
+

@@ -1,0 +1,1 @@
+// it only check two adjacent elememts at a one time

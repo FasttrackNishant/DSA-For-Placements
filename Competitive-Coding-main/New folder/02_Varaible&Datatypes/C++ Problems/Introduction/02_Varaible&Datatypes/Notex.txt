@@ -1,0 +1,68 @@
+Uses of C++
+1. Opersating system
+2. games
+3.Browser --> it makes faster of loading of pages
+
+4. Libraries --> Many high-level libraries use C++ as the core programming language. For example, TensorFlow uses C++ as the back end programming language. Such libraries required high-performance computations because they involve multiplications of huge matrices to train Machine Learning models. As a result, performance becomes critical. C++ comes to the rescue in such libraries
+
+5. Graphics: C++ is widely used in almost all graphics applications that require fast rendering, image processing, real-time physics, and mobile sensors.
+
+6.Cloud/Distributed Systems: Cloud storage systems use scalable file-systems that work close to the hardware; also, the multi threading libraries in C++ provide high concurrency and load tolerance.
+
+7.Embedded Systems: C++ is closer to the hardware level, and so it is quite useful in embedded systems as the software and hardware in these are closely coupled. Many embedded systems use C++, such as smartwatches, MP3 players, GPS systems, etc.
+
+Compilers: Compilers of various programming languages use C++ as the back-end programming language.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+$ Header files
+
+About bits\c++ 
+{
+    "https://www.geeksforgeeks.org/bitsstdc-h-c/"
+}
+
+--> Disadvantages :-
+
+ bits/stdc++.h is a non-standard header file of GNU C++ library. So, if you try to compile your code with some compiler other than GCC it might fail; e.g. MSVC do not have this header.
+
+
+--> 
+Using namespace std is bad pratice
+
+using std namespace uses lot of identifiers and it makes conflicts in program at development stage and there are different identifiers for different header files when we call  std namespace it calls all the identifiers so we should use seperate like std:: cout , chrono , foo
+
+src -->"https://www.geeksforgeeks.org/using-namespace-std-considered-bad-practice/
+
+
+
+~~~~~~~
+cout --> 
+<< --> Left shift Operator
+
+   this Operator performs the multiplication by the power of you
+   ex. x <<y , x is left shifted by y then value of x is shifted doubley with its binary value 
+
+   ex 22 is leftshifted then it becomes 88 and all this operation is done in binary language
+
+$ Right shift operator :- 
+
+same as left shift but it divides by 2 
+ex 24 is right shifted then it goes to 12 and then 6
+
+
+~~~
+Runnig in Terminal
+
+1.  g++ .\02_rightshift_leftshift.cpp
+2.  .\a.exe
+
+~~~~
+Macros
+ 
+
+Macros are a piece of code in a program that is given some name. Whenever the compiler encounters this name, the compiler replaces the name with the actual piece of code. The ‘#define’ directive is used to define a macro.
+
+Note: There is no semicolon(‘;’) at the end of the macro definition.
+
+~
