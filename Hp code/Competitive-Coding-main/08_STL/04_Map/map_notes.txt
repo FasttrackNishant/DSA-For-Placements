@@ -1,0 +1,20 @@
+Map  -> it is certain like a dictonary
+
+    map<string, int> mpp;
+    mpp["raj"] =27;
+    mpp["hima"] =31;
+    mpp["sandeep"] =67;
+    mpp["tank"] =89;
+    mpp["raj"] =29;
+
+
+map only stores unique keys it will not store raj whose value is 27 it will overiten by 29
+
+map will store like 
+(hima, 31)
+(raj , 29)
+(sandeep, 67)
+(tank, 89)
+
+
+    

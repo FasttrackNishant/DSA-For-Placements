@@ -1,0 +1,15 @@
+it is opposite of stack 
+its a FIFO operatino
+
+set --> unique ele  --> O(log N)
+unordered_set -->  O(1)  , worst O(N)
+
+
+
+
+Priority Queue _> stores all in sorted order 
+                  
+                  and does opeations in log(N)
+
+
+

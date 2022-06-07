@@ -1,0 +1,19 @@
+~~used to print string with space 
+
+--> getline( cin , variable_name )
+cout << variable_name;
+
+~~
+Operators :
+
+~1.  Arithmetic Operators: 
+
++ , - , / , * , (%)opertion among those
+
+2.Uniray Operator 
+
++ la - karte hai  
+- la + karta hain
+++  +1 -->increment
+--  -1 --> Decrement
+!      --> Not Operator

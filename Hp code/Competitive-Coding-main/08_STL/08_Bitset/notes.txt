@@ -1,0 +1,30 @@
+segment tree problems
+
+int --> takes 16 bits
+char --> 8 bits
+
+bitset <10> bt;
+it only stores 1 and 0 
+
+there is array named bt which indexes from 0 to 9 and takes value only 1
+
+
+all() -> this function is taken by 
+
+if all elements are set in bt i.e all are 1 then it returen true
+and if any one is 0 then it retures false
+
+
+
+//any 
+if minimum any of one bit is set then it prints true
+
+
+count
+it will print the number of set bits
+
+flip
+it flips the bit by 1 to 0 and 0 to one at that index
+
+none
+if no one is set then it will  give true

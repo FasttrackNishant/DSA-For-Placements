@@ -1,0 +1,60 @@
+--> Loops
+
+There are mainly two types of loops:
+
+    1. Entry Controlled Loops: In an entry controlled loop, the test condition is tested before entering the loop body. For Loop and While Loop are entry controlled loops.
+
+
+    2. Exit Controlled Loop: In the exit controlled loop, the test condition is tested or evaluated at the end of the loop body. Therefore, the loop body will execute at least once, irrespective of whether the test condition is true or false. The do-while loop is an exit controlled loop.
+
+
+~~~
+ for --> hume pata hota hai ki kis stage pe output milega aur waahi hum i ki condition dete hain
+
+ while --> jab tak desire o/p mil nahi jata tab tak run hoga
+
+
+1. For loop 
+
+for (initlaizition , condition , updatation)
+{
+
+** the middle term is compuslory in any for loop
+
+}
+
+2. While loop
+
+initialization;
+while (condition) {
+    // statements
+    update_expression;
+}
+
+3.Do while 
+
+Do
+{
+
+} while ();
+
+
+4. for_each loop
+
+add #includ <algortihm>
+
+  for_each(arr, arr + 5, print_even);
+
+~first − Input iterator to the initial position.
+~last − Final iterator to the final position.
+~fn − Unary function that accepts an element in the range as an argument.
+
+
+
+~~~~
+Pattern 
+
+i --> Row 
+j --> Coulmn
+ek reactangle create karo
+index ko 0 Se start karo
