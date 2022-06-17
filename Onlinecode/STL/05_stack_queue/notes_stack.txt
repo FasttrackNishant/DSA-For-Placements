@@ -1,0 +1,2 @@
+always remember when you calls the function top check where the stack is empty or not
+it derived run time error

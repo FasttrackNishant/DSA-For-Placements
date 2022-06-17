@@ -1,0 +1,2 @@
+it is opposite of stack 
+its a FIFO operatino

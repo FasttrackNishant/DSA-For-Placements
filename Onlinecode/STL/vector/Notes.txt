@@ -1,0 +1,32 @@
+Vector:-
+
+when we declare Array we have to predefine the size of the array
+then you can not extend it 
+
+in C++ && int main()
+we can define the size of the array at max 10 ^6
+
+
+- for int , char ,double
+int arr[1000000];  --> inside the main --> 10^6
+int arr[10000000]  --> globally the size --> 10^7
+
+-for boolean
+
+bool arr[10000000] --> inside the main --> 10^7
+
+bool arr[100000000] --> globally the size--> 10^8
+
+~~~~~~~~~~~
+
+
+push_back(0)  --> it will insert 0 in the Vector
+
+pop_back()    --> it will remove last element
+
+the size constarints are same as the arrya but they can be dynamically reached and if the arr size if readched it will give *** segmentation error / segmentation fault *** 
+
+
+vec.clear()  --> it will erase all the elements at once
+
+emplace_back(1)  --> it is same as push_back but it takes lesser time than the push_back

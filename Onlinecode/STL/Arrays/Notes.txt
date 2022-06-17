@@ -1,0 +1,34 @@
+we should use 
+#include <bits/stdc++.h>
+
+* Not to use in the interview
+
+~~~Array
+
+-> arr.fill(3)
+    // it will fill all the elements at the three 
+
+
+-> arr.at(index)
+it will get the element at that index
+
+
+
+-> Iterators
+
+begin()  -> it will assign to first index
+
+end()    -> it is not exactly end it will point to the empty address next to rbegin
+
+rbegin() -> reverse begin : it will point to the last
+
+rend()   -> it is the position before the start..
+
+auto --> whatever datatype it has it automatically detects it 
+
+arr.size()  -->gives size of an Array 
+
+arr.front() --> gives first element
+
+arr.back()  --> gives last element
+
